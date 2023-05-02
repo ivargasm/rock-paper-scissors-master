@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="title">
+        <div class="rps">
+          <div>
+            <img src="./images/logo.svg" alt="">
+          </div>
+          <div>
+            <p>score</p>
+            <p class="score" id="score">0</p>
+          </div>
+        </div>
+      </div>
+      <div class="game">
+        <div class="triangle">
+          <img src="./images/bg-triangle.svg" alt="">
+        </div>
+        <div class="paper rsp-game" id="paper">
+          <img src="./images/icon-paper.svg" alt="">
+        </div>
+        <div class="scissors rsp-game" id="scissors">
+          <img src="./images/icon-scissors.svg" alt="">
+        </div>
+        <div class="rock rsp-game" id="rock">
+          <img src="./images/icon-rock.svg" alt="">
+        </div>
+      </div>
+      <div class="results hide">
+        <div class="user">
+          <p>YOU PICKED</p>
+          <div class="color-win">
+            <img src="./images/icon-paper.svg" alt="" id="user-selected">
+          </div>
+        </div>
+        <div class="result">
+          <p class="how-win" id="how-win">YOU WIN</p>
+          <div class="rules">
+            <button id="reset">Reset Game</button>
+          </div>
+        </div>
+        <div class="house">
+          <p>HOUSE PICKED</p>
+          <div class="">
+            <img src="./images/icon-paper.svg" alt="" id="house-selected">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
